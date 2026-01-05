@@ -12,7 +12,7 @@ on:
   push:
     branches:
       - main
-      - test
+      - 'test-*'
     paths-ignore:
       - '.github/workflows'
 
