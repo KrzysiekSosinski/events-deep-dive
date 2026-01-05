@@ -4,7 +4,16 @@ on:
     types:
       - opened
       - edited
+    branches:
+      - dev
+#    paths-ignore:
+#      - '.github/workflows'
+
   workflow_dispatch:
+
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
