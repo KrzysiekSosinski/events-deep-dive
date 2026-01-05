@@ -1,11 +1,11 @@
 name: Events Demo 1
 on:
-  pull_request_target:
+  pull_request:
     types:
       - opened
       - edited
     branches:
-      - dev-*
+      - 'dev-*'
 
   workflow_dispatch:
 
